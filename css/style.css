@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(36, 38, 43);
+    color: white;
+}
+#sect_inicial{
+    background-image: url(../assets/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header div{
+    display: flex;
+    gap: 20px;
+}
+
+#nav_categorias nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#sect_principal{
+    width: 80%;
+    margin: 0 auto 0;
+    display: flex;
+    gap: 20px;
+}
+
+.articles_principais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.categorias{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sobre{
+    color: #999;
+    font-size: 16px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+#ver_mais{
+    color: white;
+    background:linear-gradient(to right, rgb(255, 28, 103), rgb(252, 65, 127));
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+}
+footer{
+    width: 100%;
+    height: 450px;
+}
+#footer_cima{
+    background:linear-gradient(to right, rgb(255, 28, 103), rgb(255, 107, 157));
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer_cima p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer_cima button{
+    color: #333;
+    background-color: rgb(252, 221, 227);
+    border: none;
+    border-radius: 50px;
+    width: 110px;
+    height: 40px;
+}
+#footer_baixo{
+    width: 100%;
+}
+#redes_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 20px;
+}
+#texto_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#marca_footer{
+    font-size: 20px;
+    font-weight: bold;
+}
+#copy{
+    font-size: 14px;
+}
+img:hover{
+    cursor: pointer;
+}
+.articles_principais p, h3:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+header nav ul li:hover{
+border-bottom: 2px solid white;
+}
